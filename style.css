@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Adicionei para melhor controle da caixa de conteúdo */
+    box-sizing: border-box; 
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px; /* Para dar espaçamento entre colunas */
+    grid-gap: 20px; 
 }
 
 .login {
@@ -35,7 +35,8 @@ body {
 }
 
 .rosto {
-    border-radius: 50%; /* Mais intuitivo para imagens circulares */
+    border-radius: 50%; 
+
     width: 120px;
     height: 120px;
 }
@@ -47,26 +48,27 @@ body {
 }
 
 .celulares {
-    width: 100%; /* Para tornar a imagem responsiva */
+    width: 100%; 
     max-width: 600px;
-    height: auto; /* Mantém a proporção da imagem */
+    height: auto; 
+
 }
 
 .botao-continue {
     background-color: #1399e5;
     border: 1px solid #1399e5;
     width: 250px;
-    height: 40px; /* Aumentei para melhorar a experiência */
+    height: 40px; 
     margin: 30px auto;
     color: white;
-    font-size: 16px; /* Aumentei o tamanho da fonte */
+    font-size: 16px; 
     cursor: pointer;
-    border-radius: 5px; /* Adicionei bordas arredondadas */
-    transition: background-color 0.3s ease; /* Transição suave ao hover */
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
 }
 
 .botao-continue:hover {
-    background-color: #117ec2; /* Efeito hover */
+    background-color: #117ec2; 
 }
 
 .continuar {
@@ -75,7 +77,7 @@ body {
     width: 100%;
     max-width: 550px;
     border: 2px solid #ececec;
-    padding: 20px; /* Melhor espaçamento interno */
+    padding: 20px; 
 }
 
 .link {
@@ -85,7 +87,7 @@ body {
 }
 
 .link:hover {
-    text-decoration: underline; /* Adicionei hover para links */
+    text-decoration: underline; 
 }
 
 .inscreva {
@@ -116,7 +118,7 @@ body {
 
 .disponivel {
     width: 200px;
-    height: auto; /* Para manter a proporção */
+    height: auto; 
     margin-left: 10px;
 }
 
@@ -126,7 +128,7 @@ body {
     }
 
     .container {
-        grid-template-columns: 1fr; /* Layout em uma única coluna */
+        grid-template-columns: 1fr; 
         margin: 0 auto;
     }
 
@@ -134,6 +136,6 @@ body {
         margin-top: 100px;
         margin-left: 0;
         justify-content: center;
-        align-items: center; /* Centraliza o conteúdo */
+        align-items: center; 
     }
 }
